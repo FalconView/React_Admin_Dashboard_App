@@ -13,6 +13,7 @@ import { Line } from "./scenes/line";
 import { Pie } from "./scenes/pie";
 import { FAQ } from "./scenes/faq";
 import { Geography } from "./scenes/geography";
+import { Calendar } from "@fullcalendar/core";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -25,6 +26,25 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" elemet={<Dashboard />} />
+              {/* <Route path="/team" elemet={<Team />} /> */}
+              <Route path="/contacts" elemet={<Contacts />} />
+              */}
+              {/* <Route path="/invoices" elemet={<Invoices />} />
+               */}
+              {/* <Route path="/form" elemet={<Form />} />
+               */}
+              {/* <Route path="/bar" elemet={<Bar />} />
+               */}
+              {/* <Route path="/pie" elemet={<Pie />} />
+               */}
+              {/* <Route path="/line" elemet={<Line />} />
+               */}
+              {/* <Route path="/faq" elemet={<FAQ />} />
+               */}
+              {/* <Route path="/geography" elemet={<Geography />} />
+               */}
+              {/* <Route path="/calendar" elemet={<Calendar />} />
+               */}
             </Routes>
           </main>
         </div>
