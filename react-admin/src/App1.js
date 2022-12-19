@@ -17,6 +17,28 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Routes>
+                <Route path="/" elemet={<Dashboard />} />
+                {/* <Route path="/team" elemet={<Team />} /> */}
+                <Route path="/contacts" elemet={<Contacts />} />
+                */}
+                {/* <Route path="/invoices" elemet={<Invoices />} />
+                 */}
+                {/* <Route path="/form" elemet={<Form />} />
+                 */}
+                {/* <Route path="/bar" elemet={<Bar />} />
+                 */}
+                {/* <Route path="/pie" elemet={<Pie />} />
+                 */}
+                {/* <Route path="/line" elemet={<Line />} />
+                 */}
+                {/* <Route path="/faq" elemet={<FAQ />} />
+                 */}
+                {/* <Route path="/geography" elemet={<Geography />} />
+                 */}
+                {/* <Route path="/calendar" elemet={<Calendar />} />
+                 */}
+              </Routes>
             </Routes>
           </main>
         </div>
